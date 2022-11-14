@@ -9,7 +9,7 @@ class TestClass(unittest.TestCase):
 
     def test_perimeter(self):
         sq = Square(2)
-        self.assertEqual(sq.perimeter(), 15, f'Perimeter of a square with side {sq.side} should be equal to {sq.perimeter()}')    
+        self.assertEqual(sq.perimeter(), 16, f'Perimeter of a square with side {sq.side} should be equal to {sq.perimeter()}')    
 
 if __name__ == '__main__':
     unittest.main()
